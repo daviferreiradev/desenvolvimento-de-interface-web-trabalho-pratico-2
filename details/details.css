@@ -1,0 +1,131 @@
+/* Presets */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+}
+
+/* Header */
+
+.logo {
+  margin-right: 32px;
+}
+
+.form-inline {
+  display: flex;
+}
+
+.bg-red {
+  background-color: #E52441;
+  color: #fff;
+}
+
+.nav-link {
+  color: #fff;
+  font-weight: 600;
+  border-bottom: 4px solid #ffffff00;
+}
+
+.nav-link:hover {
+  color: #fff;
+  border-bottom: 4px solid #fff;
+}
+
+.btn {
+  margin-left: 8px;
+}
+
+/* Banner */
+#banner {
+  object-fit: cover;
+  object-position: center;
+}
+
+.details-category {
+  font-size: 14px;
+}
+
+.rating {
+  color: #f9a72d;
+  font-size: 24px;
+}
+
+.details-image {
+  max-width: 100%;
+}
+
+#col-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#col-infos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.purchase-button {
+  background-color: #E52441;
+  color: #fff;
+  font-weight: 600;
+  border: 0px;
+  border-radius: 8px;
+  width: 100%;
+  padding: 8px;
+}
+
+.purchase-button:hover {
+  background-color: #CB1D37;
+  transform: scale(1.05);
+  transition: 400ms;
+}
+
+.details-price {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+  padding-top: 8px;
+}
+
+.details-description {
+  padding-top: 16px;
+  font-size: 14px;
+}
+
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.wrapper-infos-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.info-footer {
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+  padding: 0 32px;
+}
+
+.title-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #fff;
+  font-size: 24px;
+}
